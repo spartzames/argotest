@@ -12,7 +12,7 @@ spec:
   source:
     path: apps/
     repoURL: https://github.com/arthurk/argocd-example-install.git
-    targetRevision: master
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
